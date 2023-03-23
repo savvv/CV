@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+  input[type="text"]{
+  width:100%;
+  padding:6px;
+  margin:5px 0;
+ /* This makes sure that the padding and borders are included in the total width and height of the elements. */
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: skyblue;
+  color: white;
+  }
+  input[type="text"]:focus{
+  background-color:white;
+  color:black;
+  }
+
+</style>
+</head>
+<body>
+
+<h2>A full-width input field</h2>
+
+<form>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname">
+</form>
+
+</body>
+</html>
+
